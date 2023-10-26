@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\CHEDavid001\CHEDavid001.github.io\assets\css\APlayer.min.css"><script src="\CHEDavid001\CHEDavid001.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 鼠标样式 */
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 鼠标样式 */
 #cursor {
   position: fixed;
   width: 16px;
@@ -371,4 +371,13 @@ h6::before {
   color: var(--theme-color);
   -webkit-animation: ccc 6s linear infinite;
   animation: ccc 6s linear infinite;
+}
+/* 欢迎信息 */
+#welcome-info {
+  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
+  border-radius: 18px;
+  padding: 8px;
+}
+[data-theme="dark"] #welcome-info {
+  background: #212121;
 }
